@@ -30,6 +30,7 @@ class ArchiveableList extends Component {
             </span>
           </li>
         ))}
+        Archived Items: {archivedItems.map(i => i + " ")}
       </ul>
     );
   }
